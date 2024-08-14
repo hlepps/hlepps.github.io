@@ -192,7 +192,7 @@ project:
       date: 2022 - 2023
       description: |
         App written in C#, WPF.
-        It is a software used by stair makers to help with their work at designing stairs and staircases. It's main function is to fetch data from the measuring device and process it so it will be usable in staircase design software. In addition to it, it has couple additional functions that make the work cheaper and quicker by many hours per project.
+        It is a software used by stair makers to help with their work at designing stairs and staircases. It's main function is to fetch data from the measuring device and process it so it will be usable in staircase design software. In addition to it, it has couple additional functions that make work cheaper and faster by many hours per project.
         
         ![pomacad](pomacad.png)
 

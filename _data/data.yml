@@ -149,7 +149,7 @@ project:
       tags: 
       date: 2024
       description: |
-        Small web app that shows visualizations of staircase projects on mobile phones and PCs. Clients receive only a link and they can view it by themselves on a device of their choice.
+        Small web app that shows visualizations of staircase designs on mobile phones and PCs. Clients receive only a link and they can view it by themselves on a device of their choice.
         Written in three.js
         
         ![pomaview](pomaviewer.gif)

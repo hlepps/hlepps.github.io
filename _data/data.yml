@@ -170,8 +170,9 @@ project:
         My Engineering Thesis, a 3D game in Unity.
         The topic is: Implementation of a procedural algorithm for generating three-dimensional terrains that can be modified in real time in the form of a computer game.
 
-        Work in progress. Current features:
-        + Simple cave generation system using combination of Simplex noises
+        Features:
+        + Cave generation system made using fuzzy product of fractal noises
+        + Surface generation system made using weighted sum of gradients
         + Implementation of Marching Cubes algorithm using compute shaders (Very fast, everything calculated on graphics card)
         + Ability to modify terrain in real time
         

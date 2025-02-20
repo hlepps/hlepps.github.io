@@ -134,7 +134,7 @@ project:
       tags: 
       date: 2024
       description: |
-        Production Management System made for stair production company. Written in Blazor (C# + HTML) and Radzen (Blazor component library). Uses Entity Framework for database communication. I made it alone.
+        Production Management System made for stair production company. Written in Blazor (C# + HTML) and Radzen (Blazor component library). Uses Entity Framework for database communication.
         
         Features:
         + Account management

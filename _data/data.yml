@@ -1,6 +1,6 @@
 basic:
   name: Piotr Pomagalski                   # name
-  title: C#, Unity Programmer           # job title
+  title: Programmer - C#, Unity, C++, Python           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/ja.png # avatar file path
@@ -83,8 +83,8 @@ profile:
   order: 1
   title: Profile
   description: |
-    Hi, my name is Piotr, I'm a young C# and Unity programmer - that means I have experience in programming various games in Unity but I have also used C# outside of the game engine, creating apps in, for example, WPF and WinForms. 
-    Currently, I'm in my sixth semester of studies (out of seven).
+    Hi, my name is Piotr, I'm a young C# and Unity programmer. I have experience in creating apps in WPF, WinForms and Blazor, and in programming games in Unity. I'm also exploring c++ and python. 
+    Currently, I'm finishing my studies.
 
 experience:
   show: true
@@ -97,7 +97,7 @@ experience:
     - company: Bialic Pomagalski
       link: https://bialic.pl/
       tags: Freelance 
-      date: 2021 - 2023
+      date: 2021 - 2024
       role: C#, Unity programmer
       location: Wrocław, Remote
       description: |
@@ -129,9 +129,42 @@ project:
     Some of the projects I've took part in:
 
   items:
+    - name: pomamanager
+      link: 
+      tags: 
+      date: 2024
+      description: |
+        Production Management System made for stair production company. Written in Blazor (C# + HTML) and Radzen (Blazor component library). Uses Entity Framework for database communication. I made all of it.
+        
+        Features:
+        + Account management
+        + Work management
+        + Storing information about projects
+        + Production tracking
+        + Communication between employees
+        + Generating contracts and invoices
+        
+        ![manager](manager.png)
+
+    - name: kertu
+      link: kertu.org
+      tags: 
+      date: 2024
+      description: |
+        App for storing information in boards, lists and cards. Made in one semester in group of 7 people. I was responsible for data structure, database and part of backend. 
+        Written in Blazor (C# + HTML) and Radzen (Blazor component library). Uses Entity Framework for database communication.
+
+        Features:
+        + Account management
+        + Creating notes as cards
+        + Creating lists of cards, ability to mark them as done
+        + Creating boards containing cards, lists and other boards
+        
+        ![kertu](kertu.png)
+
     - name: KKGH
       link: https://github.com/hlepps/KKGH
-      tags: wip
+      tags: 
       date: 2024
       description: |
         My Engineering Thesis, a 3D game in Unity.
@@ -142,14 +175,14 @@ project:
         + Implementation of Marching Cubes algorithm using compute shaders (Very fast, everything calculated on graphics card)
         + Ability to modify terrain in real time
         
-        ![kkgh](kkgh.gif)
+        ![kkgh](kkgh_new.gif)
 
     - name: pomaviewer
       link: http://pomaview.pl
       tags: 
       date: 2024
       description: |
-        Small web app that shows visualizations of staircase designs on mobile phones and PCs. Clients receive only a link and they can view it by themselves on a device of their choice.
+        Small web app that shows visualizations of stair designs on mobile phones and PCs. Clients get only a link and they can view it on a device of their choice.
         Written in three.js
         
         ![pomaview](pomaviewer.gif)
@@ -184,7 +217,7 @@ project:
         Secured login, registration and database connection.
         I was responsible for backend - database, connection to database and overall background tasks.
 
-        ![music store](musics_store.jpeg)
+        ![music store](music_store.jpeg)
 
     - name: pomaCAD
       link: 'http://pomaview.pl/pomacad.pl/'

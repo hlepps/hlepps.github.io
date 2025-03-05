@@ -1,6 +1,6 @@
 basic:
   name: Piotr Pomagalski                   # name
-  title: Programmer - C#, Unity, C++, Python           # job title
+  title: Junior Fullstack Developer - C#, Unity, C++           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/ja.png # avatar file path
@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Hi, my name is Piotr, I'm a young C# and Unity programmer. I have experience in creating apps in WPF, WinForms and Blazor, and in programming games in Unity. I'm also exploring c++ and python. 
+    Hi, my name is Piotr, I'm a young fullstack developer. I have experience in creating apps in WPF, WinForms and Blazor, and in programming games in Unity. I'm also exploring c++ and python. 
     Currently, I'm finishing my studies.
 
 experience:
@@ -91,14 +91,14 @@ experience:
   order: 2
   title: Experiences
   description: |
-    Here is my professional experience working as a Programmer:
+    Here is my professional experience working as a Fullstack Developer:
 
   items:
     - company: Bialic Pomagalski
       link: https://bialic.pl/
       tags: Freelance 
       date: 2021 - 2024
-      role: C#, Unity programmer
+      role: C#, Unity
       location: Wrocław, Remote
       description: |
         Various smaller and bigger projects simplifying workflow and creating visualizations in WebGL and AR (pomaviewer, pomaCAD)
@@ -107,7 +107,7 @@ experience:
       link: https://www.fabrykagier.pl
       tags: Internship
       date: 2019.09
-      role: Unity programmer
+      role: Unity
       location: Szczecin
       description: |
         In a team of 3 people, we were tasked to create a game in Unity. The final result is described in Projects (Komusou)
@@ -116,7 +116,7 @@ experience:
       link: 
       tags: Internship
       date: 2019.07 - 2019.08
-      role: Unity programmer
+      role: Unity
       location: Szczecin
       description: |
         My first IT internship. I have worked on mobile VR Unity game called VR Shooting Range. Unfortunately, the game is currently not available om the Google Play Store.
@@ -146,8 +146,8 @@ project:
         
         ![manager](manager.png)
 
-    - name: kertu
-      link: https://kertu.org
+    - name: kertu.org
+      link: https://github.com/Kertu-Team/Kertu
       tags: 
       date: 2024
       description: |
@@ -216,7 +216,7 @@ project:
         App written in C#, WPF.
         Made during one semester in college. Its a simple music "store", you can "buy" and listen to songs, as an admin you can add songs and albums, manage users, edit all the information etc.
         Secured login, registration and database connection.
-        I was responsible for backend - database, connection to database and overall background tasks.
+        I was responsible for backend - database, connection to database and background tasks.
 
         ![music store](music_store.jpeg)
 
@@ -253,7 +253,7 @@ project:
       tags: 
       date: 2018
       description: |
-        My first finished game in Unity. I was responsible for programming and audio design. It's source code is available on my GitHub
+        My first finished game in Unity. I was responsible for coding and audio. Source code available on my GitHub
 
         Features:
         + Point and click adventure game

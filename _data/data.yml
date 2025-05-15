@@ -1,6 +1,6 @@
 basic:
   name: Piotr Pomagalski                   # name
-  title: Junior Fullstack Developer - C#, Unity, C++           # job title
+  title: Fullstack Developer - C#, Unity, C++           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/ja.png # avatar file path
@@ -101,7 +101,7 @@ experience:
       role: C#, Unity
       location: Wrocław, Remote
       description: |
-        Various smaller and bigger projects simplifying workflow and creating visualizations in WebGL and AR (pomaviewer, pomaCAD)
+        Various smaller and bigger projects including apps simplifying workflow and creating visualizations in WebGL and AR (pomaviewer, pomaCAD)
 
     - company: Fabryka Gier
       link: https://www.fabrykagier.pl
@@ -110,7 +110,7 @@ experience:
       role: Unity
       location: Szczecin
       description: |
-        In a team of 3 people, we were tasked to create a game in Unity. The final result is described in Projects (Komusou)
+        In a team of 3, we were tasked to create a game in Unity. The final result is described in Projects (Komusou)
 
     - company: Stettiner
       link: 

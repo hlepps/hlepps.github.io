@@ -306,9 +306,9 @@ skill:
       item:
         - HLSL
         - Git version control
+        - Docker
         - WinForms
         - C++
-        - Python
         - HTML&CSS
         - SQL (mySQL, SQLite, PostgreSQL)
         - Javascript
@@ -318,6 +318,8 @@ skill:
         - Unreal Engine 5
         - Android development
         - Java
+        - Python
+        - Unit testing
 
 education:
   show: true

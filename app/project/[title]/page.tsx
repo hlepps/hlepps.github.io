@@ -18,7 +18,7 @@ export default async function ProjectPage({
 	
   return (
     <div className="min-h-screen bg-black text-white">
-		<h1>{id}</h1>
+		<h1>id: {id}</h1>
       <OneProjectSection />
     </div>
   );

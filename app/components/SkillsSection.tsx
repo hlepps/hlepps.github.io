@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-const skills = ['React', 'Next.js', 'TypeScript', 'Node.js', 'TailwindCSS', 'GraphQL', 'Python', 'AWS'];
+const skills = ['C#', '.NET', 'WPF', 'WinForms', 'Entity Framework Core', 'SQLite', 'PostgreSQL', 'MySQL', 'Blazor', 'C++', 'SDL', 'raylib', 'Javascript', 'ThreeJS', 'Unity', 'Linux'];
 
 export default function SkillsSection() {
 	return (

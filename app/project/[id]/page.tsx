@@ -5,7 +5,7 @@ import {projects} from "../../components/Projects"
 export async function generateStaticParams(){
  
   return projects.map((project) => ({
-    title: String(project.id),
+    id: String(project.id),
   }))
 }
 
@@ -16,10 +16,11 @@ export default async function ProjectPage({
 }) {
 	const {id} = await params;
 	
+  console.log("id:" + id);
   return (
     <div className="min-h-screen bg-black text-white">
 		<h1>id: {id}</h1>
-      <OneProjectSection />
+      <OneProjectSection projectID={Number(id)}/>
     </div>
   );
 }

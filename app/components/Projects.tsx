@@ -1,6 +1,31 @@
 export const projects = [
   {
     id: 1,
+    title: "kertu",
+    description:
+      "Modern web application designed for project management, task organization, and team collaboration. Made using Blazor. Uses Entity Framework Core and PostgreSQL",
+    image: "/kertu.png",
+    github: "https://github.com/Kertu-Team/Kertu",
+  },
+  {
+    id: 2,
+    title: "pomaCAD",
+    description:
+      "Standalone WPF+WinForms app for conversion and processing of data from the Leica 3D Disto measuring device to the Compass stair design software",
+    image: "/pomacad.png",
+    github: "",
+    segments: [
+      {
+        id:1,
+        title: "Technologies used:",
+        description:
+          "Written in C# using WPF and WinForms forms. Uses SharpGL to embed OpenGL inside canvas. App authenticates itself using REST API connection with server.",
+        image: "/pomacad2.gif",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "pomaManager",
     description:
       "ERP system created for a company producing stairs. Made using Blazor. Uses Entity Framework Core and MySQL",
@@ -22,31 +47,6 @@ export const projects = [
         image: "/pomaManager3.png",
       },
     ],
-  },
-  {
-    id: 2,
-    title: "pomaCAD",
-    description:
-      "Standalone WPF+WinForms app for conversion and processing of data from the Leica 3D Disto measuring device to the Compass stair design software",
-    image: "/pomacad.png",
-    github: "",
-    segments: [
-      {
-        id:1,
-        title: "Features:",
-        description:
-          "+ Account management \r\n+ Work management \n+ Storing information about projects \n+ Production tracking \n+ Communication between employees \n+ Generating contracts and invoices",
-        image: "/manager.png",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "kertu",
-    description:
-      "Modern web application designed for project management, task organization, and team collaboration. Made using Blazor. Uses Entity Framework Core and PostgreSQL",
-    image: "/kertu.png",
-    github: "https://github.com/Kertu-Team/Kertu",
   },
   {
     id: 4,

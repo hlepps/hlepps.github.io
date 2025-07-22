@@ -32,7 +32,7 @@ export default function OneProjectSection({
               fill
               className="object-cover transition-transform group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/80 transition-colors duration-300" />
+            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition-colors duration-300" />
             <div className="absolute inset-0 p-6 flex flex-col justify-end">
               <h3 className="text-base md:text-xl font-bold mb-2">
                 {project.title}

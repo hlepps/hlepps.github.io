@@ -28,7 +28,7 @@ export const projects = [
     id: 3,
     title: "pomaManager",
     description:
-      "ERP system created for a company producing stairs. Made using Blazor. Uses Entity Framework Core and MySQL",
+      "ERP system created for a company producing stairs. Made using Blazor. Uses Entity Framework Core and mariaDB",
     image: "/pomaManager.png",
     github: "",
     segments: [
